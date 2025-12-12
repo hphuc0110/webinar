@@ -1,0 +1,14 @@
+1:"$Sreact.fragment"
+2:I[98924,["/_next/static/chunks/1d89ed972a208c42.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7abeb3ed0b8eb93a.js"],"HeroSection"]
+3:I[34311,["/_next/static/chunks/1d89ed972a208c42.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7abeb3ed0b8eb93a.js"],"TestimonialsSection"]
+4:I[26203,["/_next/static/chunks/1d89ed972a208c42.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7abeb3ed0b8eb93a.js"],"ConsultingSection"]
+5:I[29193,["/_next/static/chunks/1d89ed972a208c42.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7abeb3ed0b8eb93a.js"],"AgendaSection"]
+6:I[48988,["/_next/static/chunks/1d89ed972a208c42.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7abeb3ed0b8eb93a.js"],"TargetAudienceSection"]
+7:I[38676,["/_next/static/chunks/1d89ed972a208c42.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7abeb3ed0b8eb93a.js"],"default"]
+8:I[74351,["/_next/static/chunks/1d89ed972a208c42.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7abeb3ed0b8eb93a.js"],"NvidiaCertificationSection"]
+9:I[91037,["/_next/static/chunks/1d89ed972a208c42.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7abeb3ed0b8eb93a.js"],"ReviewsSection"]
+a:I[1886,["/_next/static/chunks/1d89ed972a208c42.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7abeb3ed0b8eb93a.js"],"FaqSection"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+c:"$Sreact.suspense"
+0:{"buildId":"Dks-SfABCnxtfG7RBcJU0","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen","children":[["$","$L2",null,{}],["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}],["$","$La",null,{}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/ff1a16fafef87110.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/7abeb3ed0b8eb93a.js","async":true}]],["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]]}],"loading":null,"isPartial":false}
+d:null
