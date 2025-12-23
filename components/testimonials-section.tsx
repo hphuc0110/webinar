@@ -14,9 +14,9 @@ const testimonials = [
   },
   {
     name: "Khách mời đặc biệt",
-    title: "",
+    title: "Kiến trúc sư Hệ thống cho nhiều dự án lớn tại các ngân hàng như VietinBank, CTBC, HSBC, KBank, HDBank.",
     school: "",
-    description: "",
+    description: 'Hơn 20 năm kinh nghiệm triển khai hệ thống CNTT quy mô lớn cho ngân hàng, thuế, hải quan và doanh nghiệp. \n Chuyên gia về cơ sở dữ liệu, tối ưu hiệu năng và kiến trúc dữ liệu (Data Warehouse, Data Lake, real-time replication).',
     achievements: [],
     image: "/images/bimat.jpg",
   },

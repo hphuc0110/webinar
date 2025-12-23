@@ -14,6 +14,7 @@ export function HeroSection() {
     name: "",
     parentName: "",
     school: "",
+    interest: "",
     question: "",
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -22,70 +23,74 @@ export function HeroSection() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+  
+    if (!formData.interest) {
+      setSubmitMessage("❌ Vui lòng chọn vấn đề bạn quan tâm.")
+      return
+    }
+  
     setIsSubmitting(true)
     setSubmitMessage("")
-
+  
     try {
       const APPS_SCRIPT_URL =
-      "https://script.google.com/macros/s/AKfycbw9ge7FuFlYfb5dDN4Ck-Z0E1mwCOdRbCmOixhc3EQeWTm9WMeNQPdXCBqj6epF1UJV/exec"
-      // Sắp xếp dữ liệu theo thứ tự cột trong Google Sheets
-      // Thứ tự cột trong Google Sheets cần là:
-      // 1. name (Họ và tên)
-      // 2. phone (Số điện thoại)
-      // 3. email (Email)
-      // 4. parentName (Họ tên phụ huynh)
-      // 5. school (Trường THPT đang theo học)
-      // 6. question (Câu hỏi)
-      // 7. timestamp (Thời gian đăng ký)
-      const submissionData = {
+        "https://script.google.com/macros/s/AKfycbyK3fqXJ4t1z80YcsMDwqr6EZ7FDjY3s_aDUR8SngScIWh6pBLHwefXNaVMiM8x6T95/exec"
+  
+      const payload = {
         name: formData.name || "",
         phone: formData.phone || "",
         email: formData.email || "",
         parentName: formData.parentName || "",
         school: formData.school || "",
+        interest: formData.interest || "",
         question: formData.question || "",
         timestamp: new Date().toLocaleString("vi-VN", {
           timeZone: "Asia/Ho_Chi_Minh",
-          year: "numeric",
-          month: "2-digit",
-          day: "2-digit",
-          hour: "2-digit",
-          minute: "2-digit",
-          second: "2-digit",
         }),
       }
-
-      const response = await fetch(APPS_SCRIPT_URL, {
+  
+      // Log để debug
+      console.log("Sending data:", payload)
+  
+      // Gửi dưới dạng JSON với text/plain để Google Apps Script nhận được
+      const res = await fetch(APPS_SCRIPT_URL, {
         method: "POST",
-        body: JSON.stringify(submissionData),
         headers: {
-          "Content-Type": "text/plain",
+          "Content-Type": "text/plain; charset=utf-8",
         },
-        redirect: "follow",
+        body: JSON.stringify(payload),
       })
-
-      const result = await response.json()
-
+  
+      // Kiểm tra response
+      if (!res.ok) {
+        throw new Error(`HTTP error! status: ${res.status}`)
+      }
+  
+      const result = await res.json()
+      console.log("Response from Google Apps Script:", result)
+  
       if (result.status === "success") {
-        setSubmitMessage("✅ Đăng ký thành công! Chúng tôi sẽ gửi link tham dự qua email của bạn.")
+        setSubmitMessage("✅ Đăng ký thành công! Link Zoom sẽ được gửi qua email.")
         setFormData({
           phone: "",
           email: "",
           name: "",
           parentName: "",
           school: "",
+          interest: "",
           question: "",
         })
       } else {
-        setSubmitMessage("❌ Có lỗi xảy ra: " + result.message)
+        setSubmitMessage("❌ " + result.message)
       }
-    } catch (error) {
-      console.error("[v0] Error submitting form:", error)
-      setSubmitMessage("❌ Có lỗi xảy ra. Vui lòng kiểm tra kết nối internet và thử lại.")
+    } catch (err) {
+      console.error(err)
+      setSubmitMessage("❌ Lỗi kết nối. Vui lòng thử lại.")
     } finally {
       setIsSubmitting(false)
     }
   }
+  
 
   const scrollToForm = () => {
     const form = document.getElementById("registration-form")
@@ -126,7 +131,7 @@ export function HeroSection() {
                 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight text-balance animate-[textReveal_1s_ease-out_0.4s_both]
   bg-gradient-to-r from-[#6AECE1] to-[#FFF57E] bg-clip-text text-transparent"
               >
-                ĐỊNH HƯỚNG & TUYỂN CHỌN TÀI NĂNG TRẺ CÔNG NGHỆ AI
+                CON BẠN LÀ AI TRONG KỈ NGUYÊN SỐ? 
               </h1>
 
               <p className="text-xs md:text-sm lg:text-md xl:text-lg font-medium leading-tight text-balance animate-[textReveal_1s_ease-out_0.4s_both]">
@@ -140,7 +145,7 @@ export function HeroSection() {
                 <div className="w-10 h-10 md:w-12 md:h-12 bg-white rounded-full flex items-center justify-center animate-[pulse_2s_ease-in-out_infinite]">
                   <Calendar className="w-5 h-5 md:w-6 md:h-6 text-[#1a3a5c]" />
                 </div>
-                <span className="font-medium">20H00 | 13.12.2025</span>
+                <span className="font-medium">20H00 | 26.12.2025</span>
               </div>
               <div className="flex items-center gap-3 animate-[slideInLeft_0.6s_ease-out_0.8s_both] hover:scale-110 transition-transform duration-300">
                 <div className="w-10 h-10 md:w-12 md:h-12 bg-white rounded-full flex items-center justify-center animate-[pulse_2s_ease-in-out_0.5s_infinite]">
@@ -157,13 +162,10 @@ export function HeroSection() {
                 <h3 className="text-lg md:text-xl font-bold text-white animate-[bounce_1s_ease-in-out_1s]">
                   ĐĂNG KÝ THAM DỰ ONLINE
                 </h3>
-                <p className="text-xs text-white/90 mt-2">CHỈ CÒN 99 SUẤT CUỐI CÙNG</p>
               </div>
 
               <form onSubmit={handleSubmit} className="p-6 md:p-8 space-y-4">
-                <div className="space-y-3">
-
-                <div className="grid grid-cols-1  gap-4">
+                <div className="space-y-4">
                   <Input
                     placeholder="Họ và tên *"
                     value={formData.name}
@@ -172,40 +174,35 @@ export function HeroSection() {
                     disabled={isSubmitting}
                     className="bg-gray-100 border-0 h-12 text-gray-900 placeholder:text-gray-500"
                   />
-                </div>
 
-                <Input
-                  placeholder="Số điện thoại *"
-                  type="tel"
-                  value={formData.phone}
-                  onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  required
-                  disabled={isSubmitting}
-                  className="bg-gray-100 border-0 h-12 text-gray-900 placeholder:text-gray-500"
-                />
+                  <Input
+                    placeholder="Số điện thoại *"
+                    type="tel"
+                    value={formData.phone}
+                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                    required
+                    disabled={isSubmitting}
+                    className="bg-gray-100 border-0 h-12 text-gray-900 placeholder:text-gray-500"
+                  />
 
-                <Input
-                  placeholder="Email *"
-                  type="email"
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  required
-                  disabled={isSubmitting}
-                  className="bg-gray-100 border-0 h-12 text-gray-900 placeholder:text-gray-500"
-                />
+                  <Input
+                    placeholder="Email *"
+                    type="email"
+                    value={formData.email}
+                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                    required
+                    disabled={isSubmitting}
+                    className="bg-gray-100 border-0 h-12 text-gray-900 placeholder:text-gray-500"
+                  />
 
-                <Input
-                  placeholder="Họ tên học sinh *"
-                  value={formData.parentName}
-                  onChange={(e) => setFormData({ ...formData, parentName: e.target.value })}
-                  required
-                  disabled={isSubmitting}
-                  className="bg-gray-100 border-0 h-12 text-gray-900 placeholder:text-gray-500"
-                />
-                </div>
-                
-                
-                <div className="grid grid-cols-1 gap-4">
+                  <Input
+                    placeholder="Họ tên học sinh *"
+                    value={formData.parentName}
+                    onChange={(e) => setFormData({ ...formData, parentName: e.target.value })}
+                    required
+                    disabled={isSubmitting}
+                    className="bg-gray-100 border-0 h-12 text-gray-900 placeholder:text-gray-500"
+                  />
 
                   <Input
                     placeholder="Trường THPT đang theo học *"
@@ -215,16 +212,50 @@ export function HeroSection() {
                     disabled={isSubmitting}
                     className="bg-gray-100 border-0 h-12 text-gray-900 placeholder:text-gray-500"
                   />
-                </div>
 
-                <Input
-                  placeholder="Câu hỏi dành cho Webinar *"
-                  value={formData.question}
-                  onChange={(e) => setFormData({ ...formData, question: e.target.value })}
-                  required
-                  disabled={isSubmitting}
-                  className="bg-gray-100 border-0 h-12 text-gray-900 placeholder:text-gray-500"
-                />
+                  <div className="space-y-2">
+                    <label className="text-sm font-medium text-gray-700">
+                      Bạn đang quan tâm đến vấn đề nào nhất? *
+                    </label>
+                    <Select
+                      value={formData.interest}
+                      onValueChange={(value) => setFormData({ ...formData, interest: value })}
+                      disabled={isSubmitting}
+                    >
+                      <SelectTrigger className="bg-gray-100 border-0 h-auto min-h-12 text-gray-900 w-full text-left [&>span]:whitespace-normal [&>span]:break-words [&>span]:block">
+                        <SelectValue placeholder="Chọn vấn đề bạn quan tâm" />
+                      </SelectTrigger>
+                      <SelectContent className="w-[var(--radix-select-trigger-width)]">
+                        <SelectItem 
+                          value="Thị trường lao động thời AI: doanh nghiệp đang tìm ai?"
+                          className="whitespace-normal break-words py-2"
+                        >
+                          Thị trường lao động thời AI: doanh nghiệp đang tìm ai?
+                        </SelectItem>
+                        <SelectItem 
+                          value="Bộ kỹ năng AI cho THPT: từ biết dùng đến biết tạo giá trị"
+                          className="whitespace-normal break-words py-2"
+                        >
+                          Bộ kỹ năng AI cho THPT: từ biết dùng đến biết tạo giá trị
+                        </SelectItem>
+                        <SelectItem 
+                          value="Lộ trình 12–24 tháng: portfolio – capstone – tín hiệu năng lực"
+                          className="whitespace-normal break-words py-2"
+                        >
+                          Lộ trình 12–24 tháng: portfolio – capstone – tín hiệu năng lực
+                        </SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  <Input
+                    placeholder="Câu hỏi dành cho Webinar *"
+                    value={formData.question}
+                    onChange={(e) => setFormData({ ...formData, question: e.target.value })}
+                    disabled={isSubmitting}
+                    className="bg-gray-100 border-0 h-12 text-gray-900 placeholder:text-gray-500"
+                  />
+                </div>
 
                 {submitMessage && (
                   <div
