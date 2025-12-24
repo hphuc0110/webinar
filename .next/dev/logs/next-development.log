@@ -1,88 +1,232 @@
-[00:00:01.473] Server  LOG      ✓ Ready in 964ms
-[00:00:04.921] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.225] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:06.225] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:06.225] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766496449806}
-[00:18:02.483] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:18:03.379] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:18:03.379] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:18:03.379] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766497527318}
-[00:24:16.788] Server  LOG      ✓ Compiled in 158ms
-[00:24:29.898] Browser LOG     Sending data: {"email":"a@gmail.com","interest":"Bộ kỹ năng AI cho THPT: từ biết dùng đến biết tạo giá trị","name":"a","parentName":"1","phone":"a","question":"1","school":"1","timestamp":"20:51:53 23/12/2025"}
-[00:24:29.898] Browser LOG     URLSearchParams: name=a&phone=a&email=a%40gmail.com&parentName=1&school=1&interest=B%E1%BB%99+k%E1%BB%B9+n%C4%83ng+AI+cho+THPT%3A+t%E1%BB%AB+bi%E1%BA%BFt+d%C3%B9ng+%C4%91%E1%BA%BFn+bi%E1%BA%BFt+t%E1%BA%A1o+gi%C3%A1+tr%E1%BB%8B&question=1&timestamp=20%3A51%3A53+23%2F12%2F2025
-[00:24:33.618] Browser LOG     Response from Google Apps Script: {"message":"Đăng ký thành công!","status":"success"}
-[00:28:25.436] Browser LOG     Sending data: {"email":"a@gmail.com","interest":"Thị trường lao động thời AI: doanh nghiệp đang tìm ai?","name":"a","parentName":"ấd","phone":"12","question":"a","school":"á","timestamp":"20:55:49 23/12/2025"}
-[00:28:25.436] Browser LOG     URLSearchParams: name=a&phone=12&email=a%40gmail.com&parentName=%E1%BA%A5d&school=%C3%A1&interest=Th%E1%BB%8B+tr%C6%B0%E1%BB%9Dng+lao+%C4%91%E1%BB%99ng+th%E1%BB%9Di+AI%3A+doanh+nghi%E1%BB%87p+%C4%91ang+t%C3%ACm+ai%3F&question=a&timestamp=20%3A55%3A49+23%2F12%2F2025
-[00:28:30.224] Browser LOG     Response from Google Apps Script: {"message":"Đăng ký thành công!","status":"success"}
-[00:31:51.497] Server  LOG      ✓ Compiled in 119ms
-[00:32:14.034] Server  LOG      ✓ Compiled in 94ms
-[00:34:58.979] Server  LOG      ✓ Compiled in 99ms
-[00:34:59.222] Browser ERROR   ./components/hero-section.tsx:37:12
+[00:00:14.097] Server  LOG      ✓ Ready in 8.8s
+[00:02:04.229] Server  LOG      ○ Compiling / ...
+[00:02:09.348] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:09.637] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:09.637] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:09.637] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766546363601}
+[00:30:35.203] Server  LOG      ✓ Compiled in 150ms
+[00:30:37.981] Server  LOG      ✓ Compiled in 98ms
+[00:31:41.070] Server  LOG      ✓ Compiled in 96ms
+[00:31:57.105] Server  LOG      ✓ Compiled in 89ms
+[00:32:03.909] Server  LOG      ✓ Compiled in 121ms
+[00:32:04.371] Browser ERROR   ./components/testimonials-section.tsx:27:18
 Parsing ecmascript source code failed
-  35 |     try {
-  36 |       const APPS_SCRIPT_URL =
-> 37 |       https://script.google.com/macros/s/AKfycbyK3fqXJ4t1z80YcsMDwqr6EZ7FDjY3s_aDUR8SngScIWh6pBLHwefXNaVMiM8x6T95/exec  
-     |            ^
-  38 |       const payload = {
-  39 |         name: formData.name || "",
-  40 |         phone: formData.phone || "",
+  25 |     title: "Founder Group Tôi thử sức làm BA ",
+  26 |     school: "",
+> 27 |     description: '- Người truyền cảm hứng, định hướng nghề nghiệp và kết nối việc làm cho sinh viên
+     |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 | - Chuyên gia tư vấn giải pháp chuyển đổi số khối Chính phủ. 
+  29 | - Chuyên gia tư vấn Chiến lược dữ liệu.',
+  30 |     achievements: ["IELTS 8.0", "SAT 1560", "Thủ khoa 5 khối"],
 
-Expected a semicolon
+Unterminated string constant
 
 Import trace:
   Server Component:
-    ./components/hero-section.tsx
+    ./components/testimonials-section.tsx
     ./app/page.tsx
-[00:35:36.636] Server  LOG      ✓ Compiled in 94ms
-[00:35:37.893] Server  LOG      ✓ Compiled in 91ms
-[00:35:54.229] Browser LOG     Sending data: {"email":"a@gmail.com","interest":"Lộ trình 12–24 tháng: portfolio – capstone – tín hiệu năng lực","name":"a","parentName":"a","phone":"a","question":"a","school":"a","timestamp":"21:03:18 23/12/2025"}
-[00:35:59.690] Browser LOG     Response from Google Apps Script: {"message":"Đăng ký thành công!","status":"success"}
-[01:30:53.453] Server  LOG      ✓ Compiled in 115ms
-[01:30:54.540] Server  LOG      ✓ Compiled in 91ms
-[01:31:00.296] Server  LOG      ✓ Compiled in 91ms
-[01:31:01.307] Server  LOG      ✓ Compiled in 81ms
-[01:31:05.779] Server  LOG      ✓ Compiled in 75ms
-[01:31:13.886] Server  LOG      ✓ Compiled in 77ms
-[01:31:15.834] Server  LOG      ✓ Compiled in 78ms
-[01:31:18.757] Server  LOG      ✓ Compiled in 83ms
-[01:31:19.230] Browser ERROR   ./components/hero-section.tsx:135:15
+[00:32:10.386] Browser ERROR   ./components/testimonials-section.tsx:27:18
 Parsing ecmascript source code failed
-  133 |               >
-  134 |                 CON BẠN LÀ AI TRONG KỈ NGUYÊN SỐ? <
-> 135 |               </h1>
-      |               ^
-  136 |
-  137 |               <p className="text-xs md:text-sm lg:text-md xl:text-lg font-medium leading-tight text-balance animate-[textReveal_1s_ease-out_0.4s_both]">
-  138 |                 Giúp phụ huynh hiểu đúng ngành Trí tuệ nhân tạo và lộ trình để con trở thành Kỹ sư AI toàn năng
+  25 |     title: "Founder Group Tôi thử sức làm BA ",
+  26 |     school: "",
+> 27 |     description: '- Người truyền cảm hứng, định hướng nghề nghiệp và kết nối việc làm cho sinh viên
+     |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 | - Chuyên gia tư vấn giải pháp chuyển đổi số khối Chính phủ, Chuyên gia tư vấn Chiến lược dữ liệu.',
+  29 |     achievements: ["IELTS 8.0", "SAT 1560", "Thủ khoa 5 khối"],
+  30 |     image: "/images/viet-hung.jpg",
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/testimonials-section.tsx
+    ./app/page.tsx
+[00:32:33.584] Server  LOG      ✓ Compiled in 84ms
+[00:32:36.551] Server  LOG      ✓ Compiled in 91ms
+[00:32:52.054] Server  LOG      ✓ Compiled in 89ms
+[00:33:03.371] Server  LOG      ✓ Compiled in 95ms
+[00:33:31.131] Server  LOG      ✓ Compiled in 113ms
+[00:33:31.376] Browser ERROR   ./components/testimonials-section.tsx:25:1
+Parsing ecmascript source code failed
+  23 |
+  24 |
+> 25 | export function TestimonialsSection() {
+     | ^^^^^^
+  26 |   const [isVisible, setIsVisible] = useState(false)
+  27 |   const sectionRef = useRef<HTMLElement>(null)
+  28 |
 
 Expression expected
 
 Import trace:
   Server Component:
-    ./components/hero-section.tsx
+    ./components/testimonials-section.tsx
     ./app/page.tsx
-[01:31:19.230] Browser ERROR   ./components/hero-section.tsx:135:16
+[00:33:38.155] Server  LOG      ✓ Compiled in 92ms
+[00:33:41.171] Server  LOG      ✓ Compiled in 95ms
+[00:35:47.883] Server  LOG      ✓ Compiled in 90ms
+[00:35:51.677] Server  LOG      ✓ Compiled in 82ms
+[00:42:46.981] Server  LOG      ✓ Compiled in 119ms
+[00:42:52.008] Server  LOG      ✓ Compiled in 77ms
+[00:42:57.525] Server  LOG      ✓ Compiled in 86ms
+[00:43:05.897] Server  LOG      ✓ Compiled in 79ms
+[00:43:07.936] Server  LOG      ✓ Compiled in 86ms
+[00:53:22.533] Server  LOG      ✓ Compiled in 106ms
+[00:53:28.903] Server  LOG      ✓ Compiled in 86ms
+[00:55:15.003] Server  LOG      ✓ Compiled in 75ms
+[00:57:42.844] Server  LOG      ✓ Compiled in 87ms
+[00:58:44.810] Server  LOG      ✓ Compiled in 83ms
+[00:58:45.850] Server  LOG      ✓ Compiled in 72ms
+[00:59:24.118] Server  LOG      ✓ Compiled in 74ms
+[00:59:31.060] Server  LOG      ✓ Compiled in 84ms
+[01:04:10.109] Server  LOG      ✓ Compiled in 77ms
+[01:04:11.354] Server  LOG      ✓ Compiled in 82ms
+[01:04:37.154] Server  LOG      ✓ Compiled in 76ms
+[01:04:43.064] Server  LOG      ✓ Compiled in 77ms
+[01:05:04.475] Server  LOG      ✓ Compiled in 97ms
+[01:06:28.413] Server  LOG      ✓ Compiled in 75ms
+[01:06:54.847] Server  LOG      ✓ Compiled in 88ms
+[01:07:02.051] Server  LOG      ✓ Compiled in 90ms
+[01:07:16.169] Server  LOG      ✓ Compiled in 90ms
+[01:09:13.176] Server  LOG      ✓ Compiled in 72ms
+[01:09:19.367] Server  LOG      ✓ Compiled in 71ms
+[01:09:22.233] Server  LOG      ✓ Compiled in 71ms
+[01:14:43.610] Server  LOG      ✓ Compiled in 89ms
+[01:14:47.840] Server  LOG      ✓ Compiled in 80ms
+[01:14:48.378] Browser ERROR   ./components/agenda-section.tsx:15:23
 Parsing ecmascript source code failed
-  133 |               >
-  134 |                 CON BẠN LÀ AI TRONG KỈ NGUYÊN SỐ? <
-> 135 |               </h1>
-      |                ^^^^
-  136 |
-  137 |               <p className="text-xs md:text-sm lg:text-md xl:text-lg font-medium leading-tight text-balance animate-[textReveal_1s_ease-out_0.4s_both]">
-  138 |                 Giúp phụ huynh hiểu đúng ngành Trí tuệ nhân tạo và lộ trình để con trở thành Kỹ sư AI toàn năng
+  13 |       datetime: "20h00 | 26.12.2025",
+  14 |       format: "Zoom Online",
+> 15 |       content: [Bức tranh nghề nghiệp qua các thời kỳ: Phân tích sự dịch chuyển cách tạo giá trị và cơ hội nghề nghiệp, từ đó giúp phụ huynh hiểu vai trò của AI trong kỷ nguyên số.
+     |                       ^^^^^
+  16 |
+  17 |         Khung năng lực SCORE 25 & Archetype: Giới thiệu bản đồ năng lực cốt lõi giúp phụ huynh định hướng đúng thế mạnh và con đường phát triển phù hợp cho học sinh.
+  18 |         
 
-Unterminated regexp literal
+Expected ',', got 'tranh'
 
 Import trace:
   Server Component:
-    ./components/hero-section.tsx
+    ./components/agenda-section.tsx
     ./app/page.tsx
-[01:31:31.705] Server  LOG      ✓ Compiled in 81ms
-[01:31:42.669] Server  LOG      ✓ Compiled in 68ms
-[01:31:44.940] Server  LOG      ✓ Compiled in 66ms
-[01:32:06.890] Server  LOG      ✓ Compiled in 118ms
-[01:32:23.435] Server  LOG      ✓ Compiled in 93ms
-[01:32:35.015] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:32:35.289] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:32:35.289] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[01:32:35.289] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766501999230}
+[01:14:56.382] Browser ERROR   ./components/agenda-section.tsx:16:15
+Parsing ecmascript source code failed
+  14 |       format: "Zoom Online",
+  15 |       content: [
+> 16 |         Bức tranh nghề nghiệp qua các thời kỳ: Phân tích sự dịch chuyển cách tạo giá trị và cơ hội nghề nghiệp, từ đó giúp phụ huynh hiểu vai trò của AI trong kỷ nguyên số.
+     |               ^^^^^
+  17 |
+  18 |         Khung năng lực SCORE 25 & Archetype: Giới thiệu bản đồ năng lực cốt lõi giúp phụ huynh định hướng đúng thế mạnh và con đường phát triển phù hợp cho học sinh.
+  19 |         
+
+Expected ',', got 'tranh'
+
+Import trace:
+  Server Component:
+    ./components/agenda-section.tsx
+    ./app/page.tsx
+[01:14:59.064] Server  LOG      ✓ Compiled in 81ms
+[01:14:59.373] Browser ERROR   ./components/agenda-section.tsx:18:15
+Parsing ecmascript source code failed
+  16 |         "Bức tranh nghề nghiệp qua các thời kỳ: Phân tích sự dịch chuyển cách tạo giá trị và cơ hội nghề nghiệp, từ đó giúp phụ huynh hiểu vai trò của AI trong kỷ nguyên số.",
+  17 |
+> 18 |         Khung năng lực SCORE 25 & Archetype: Giới thiệu bản đồ năng lực cốt lõi giúp phụ huynh định hướng đúng thế mạnh và con đường phát triển phù hợp cho học sinh.
+     |               ^^^^^
+  19 |         
+  20 |         Case study thực tế: Câu chuyện từ nhân vật nổi tiếng cùng ví dụ phụ huynh – học sinh áp dụng khung năng lực để tạo lợi thế học tập và nghề nghiệp.
+  21 |         
+
+Expected ',', got 'năng'
+
+Import trace:
+  Server Component:
+    ./components/agenda-section.tsx
+    ./app/page.tsx
+[01:15:00.681] Server  LOG      ✓ Compiled in 79ms
+[01:15:01.380] Browser ERROR   ./components/agenda-section.tsx:22:17
+Parsing ecmascript source code failed
+  20 |         "Case study thực tế: Câu chuyện từ nhân vật nổi tiếng cùng ví dụ phụ huynh – học sinh áp dụng khung năng lực để tạo lợi thế học tập và nghề nghiệp.",
+  21 |         
+> 22 |         Tương lai kỷ nguyên số (P4): Những câu hỏi phụ huynh buộc phải đối mặt khi AI thay đổi cách học, cách làm việc và tiêu chuẩn đánh giá năng lực.
+     |                 ^^^
+  23 |         
+  24 |         Từ khung năng lực đến roadmap 12–24 tháng: Lộ trình phát triển theo đầu ra (project, portfolio, capstone) giúp học sinh xây dựng hồ sơ năng lực bền vững.
+  25 |         
+
+Expected ',', got 'lai'
+
+Import trace:
+  Server Component:
+    ./components/agenda-section.tsx
+    ./app/page.tsx
+[01:15:02.125] Server  LOG      ✓ Compiled in 74ms
+[01:15:02.371] Browser ERROR   ./components/agenda-section.tsx:24:14
+Parsing ecmascript source code failed
+  22 |         "Tương lai kỷ nguyên số (P4): Những câu hỏi phụ huynh buộc phải đối mặt khi AI thay đổi cách học, cách làm việc và tiêu chuẩn đánh giá năng lực.",
+  23 |         
+> 24 |         Từ khung năng lực đến roadmap 12–24 tháng: Lộ trình phát triển theo đầu ra (project, portfolio, capstone) giúp học sinh xây dựng hồ sơ năng lực bền vững.
+     |              ^^^^^
+  25 |         
+  26 |         Góc nhìn AI57 – Level A, B, C: Định hướng ứng dụng AI theo từng cấp độ, giải đáp trực tiếp (Q&A) và kêu gọi tham gia lộ trình phù hợp (CTA).
+  27 |       ],
+
+Expected ',', got 'khung'
+
+Import trace:
+  Server Component:
+    ./components/agenda-section.tsx
+    ./app/page.tsx
+[01:15:04.092] Server  LOG      ✓ Compiled in 77ms
+[01:15:04.385] Browser ERROR   ./components/agenda-section.tsx:26:14
+Parsing ecmascript source code failed
+  24 |         "Từ khung năng lực đến roadmap 12–24 tháng: Lộ trình phát triển theo đầu ra (project, portfolio, capstone) giúp học sinh xây dựng hồ sơ năng lực bền vững.",
+  25 |         
+> 26 |         Góc nhìn AI57 – Level A, B, C: Định hướng ứng dụng AI theo từng cấp độ, giải đáp trực tiếp (Q&A) và kêu gọi tham gia lộ trình phù hợp (CTA).
+     |              ^^^^^
+  27 |       ],
+  28 |     },
+  29 |   },
+
+Expected ',', got 'nhìn'
+
+Import trace:
+  Server Component:
+    ./components/agenda-section.tsx
+    ./app/page.tsx
+[01:15:08.935] Server  LOG      ✓ Compiled in 75ms
+[01:15:09.961] Server  LOG      ✓ Compiled in 78ms
+[01:15:32.039] Server  LOG      ✓ Compiled in 73ms
+[01:15:40.105] Server  LOG      ✓ Compiled in 88ms
+[01:15:47.774] Server  LOG      ✓ Compiled in 74ms
+[01:18:57.522] Server  LOG      ✓ Compiled in 80ms
+[01:18:59.222] Server  LOG      ✓ Compiled in 81ms
+[01:19:05.847] Server  LOG      ✓ Compiled in 82ms
+[01:19:08.553] Server  LOG      ✓ Compiled in 82ms
+[01:20:40.655] Server  LOG      ✓ Compiled in 97ms
+[01:20:59.848] Server  LOG      ✓ Compiled in 96ms
+[01:21:13.842] Server  LOG      ✓ Compiled in 87ms
+[01:21:25.746] Server  LOG      ✓ Compiled in 79ms
+[01:21:51.914] Server  LOG      ✓ Compiled in 84ms
+[01:21:52.378] Browser ERROR   ./components/agenda-section.tsx:90:12
+Parsing ecmascript source code failed
+  88 |   {
+  89 |     date: "Phần 5",
+> 90 |     title: "Từ khung năng lực đến roadmap 12–24 tháng theo đầu ra,
+     |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  91 |     isHighlighted: false,
+  92 |     detailInfo: {
+  93 |       datetime: "20h00 | 26.12.2025",
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/agenda-section.tsx
+    ./app/page.tsx
+[01:22:08.546] Server  LOG      ✓ Compiled in 86ms
+[01:23:49.759] Server  LOG      ✓ Compiled in 83ms
+[01:24:23.755] Server  LOG      ✓ Compiled in 85ms
+[01:24:28.666] Server  LOG      ✓ Compiled in 81ms
+[01:24:31.921] Server  LOG      ✓ Compiled in 74ms
+[01:24:33.213] Server  LOG      ✓ Compiled in 71ms
+[01:53:06.314] Server  LOG      ✓ Compiled in 82ms

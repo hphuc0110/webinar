@@ -757,7 +757,7 @@ function HeroSection() {
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
                                                                                     value: "Lộ trình 12–24 tháng: portfolio – capstone – tín hiệu năng lực",
                                                                                     className: "whitespace-normal break-words py-2",
-                                                                                    children: "Lộ trình 12–24 tháng: portfolio – capstone – tín hiệu năng lực"
+                                                                                    children: "Lộ trình 12–24 tháng: Portfolio – Capstone – Tín hiệu năng lực"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/hero-section.tsx",
                                                                                     lineNumber: 241,
@@ -985,14 +985,19 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 const testimonials = [
     {
+        name: "Lê Bá Huy",
+        title: "Founder Group Tôi thử sức làm BA ",
+        school: "",
+        description: ' Người truyền cảm hứng, định hướng nghề nghiệp và kết nối việc làm cho sinh viên \n Chuyên gia tư vấn giải pháp chuyển đổi số khối Chính phủ, Chuyên gia tư vấn Chiến lược dữ liệu.',
+        achievements: [],
+        image: "/images/le-ba-huy.png"
+    },
+    {
         name: "Nguyễn Quốc Cường",
         title: "Chuyên gia LLM Agents & tự động hóa doanh nghiệp",
         description: "Cựu Engineering Manager Samsung SDS \nTechnical Leader FPT Software \n Tiên phong đưa Deep Learning vào sản xuất từ 2017 \nFounder đơn vị nghiên cứu LLM Agents & tự động hóa doanh nghiệp",
         image: "/images/cuong.png",
-        achievements: [
-            "Engineering Manager Samsung SDS",
-            "Technical Leader FPT Software"
-        ]
+        achievements: []
     },
     {
         name: "Khách mời đặc biệt",
@@ -1001,18 +1006,6 @@ const testimonials = [
         description: 'Hơn 20 năm kinh nghiệm triển khai hệ thống CNTT quy mô lớn cho ngân hàng, thuế, hải quan và doanh nghiệp. \n Chuyên gia về cơ sở dữ liệu, tối ưu hiệu năng và kiến trúc dữ liệu (Data Warehouse, Data Lake, real-time replication).',
         achievements: [],
         image: "/images/bimat.jpg"
-    },
-    {
-        name: "Nguyễn Việt Hưng",
-        title: "Sinh viên xuất sắc",
-        school: "",
-        description: 'Ngành Khoa học dữ liệu - Trí tuệ nhân tạo HUST, Giải Nhì Thành phố tiếng Anh, Thủ khoa 5 khối THPTQG',
-        achievements: [
-            "IELTS 8.0",
-            "SAT 1560",
-            "Thủ khoa 5 khối"
-        ],
-        image: "/images/viet-hung.jpg"
     }
 ];
 function TestimonialsSection() {
@@ -1442,10 +1435,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 const benefits = [
-    "Hiểu rõ AI đang thay đổi nghề nghiệp như thế nào và ngành Kỹ sư AI sẽ phát triển ra sao trong 5–10 năm tới",
-    "Nắm được lộ trình học tập để trở thành Kỹ sư AI từ THPT đến đại học & sau đại học",
-    "Biết cần chuẩn bị kỹ năng, dự án & portfolio gì để tăng lợi thế khi xét tuyển, xin học bổng & cơ hội việc làm quốc tế",
-    "Có kế hoạch học tập rõ ràng để phụ huynh đồng hành cùng con mà không áp lực, không mơ hồ AI là gì, bắt đầu từ đâu"
+    "Mỗi giai đoạn phát triển của xã hội kéo theo sự thay đổi trong cách tạo ra giá trị, từ đó làm dịch chuyển cơ hội nghề nghiệp; AI đang trở thành một nền tảng cốt lõi tiếp theo, có vai trò hỗ trợ và khuếch đại năng lực của thế hệ trẻ.",
+    "Cung cấp khung năng lực nền tảng: phụ huynh được giới thiệu khung năng lực SCORE 25 kết hợp với 4 nhóm archetype, ở mức độ nhận thức và định hướng, không yêu cầu đánh giá hay chấm điểm trực tiếp tại thời điểm chia sẻ.",
+    "Hé lộ roadmap phát triển 12–24 tháng theo đầu ra: từ khung năng lực đến project, portfolio, capstone và tín hiệu năng lực → dẫn dắt sang buổi chia sẻ chuyên sâu.",
+    "Nhu cầu ứng dụng AI thực tiễn: định hướng Level A của AI57, với lộ trình tiếp tục cho nhóm quan tâm sâu hơn ở Level B, C."
 ];
 function ConsultingSection() {
     const [isVisible, setIsVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -1485,7 +1478,7 @@ function ConsultingSection() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-2xl md:text-3xl font-bold",
-                                children: "PHỤ HUYNH & HỌC SINH SẼ GỠ BỎ 4 NỖI LO LỚN NHẤT VỀ NGÀNH TRÍ TUỆ NHÂN TẠO           "
+                                children: "KỸ NĂNG THEN CHỐT CHO CON BẠN TRONG 5-10 NĂM TỚI"
                             }, void 0, false, {
                                 fileName: "[project]/components/consulting-section.tsx",
                                 lineNumber: 52,
@@ -1503,7 +1496,7 @@ function ConsultingSection() {
                                                 className: "w-5 h-5 md:w-6 md:h-6 text-green-600 flex-shrink-0 mt-1"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/consulting-section.tsx",
-                                                lineNumber: 58,
+                                                lineNumber: 59,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1511,18 +1504,18 @@ function ConsultingSection() {
                                                 children: benefit
                                             }, void 0, false, {
                                                 fileName: "[project]/components/consulting-section.tsx",
-                                                lineNumber: 59,
+                                                lineNumber: 60,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/components/consulting-section.tsx",
-                                        lineNumber: 57,
+                                        lineNumber: 58,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/consulting-section.tsx",
-                                lineNumber: 55,
+                                lineNumber: 56,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -1531,7 +1524,7 @@ function ConsultingSection() {
                                 children: "ĐĂNG KÝ THAM DỰ MIỄN PHÍ"
                             }, void 0, false, {
                                 fileName: "[project]/components/consulting-section.tsx",
-                                lineNumber: 64,
+                                lineNumber: 65,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -1543,17 +1536,17 @@ function ConsultingSection() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: `transition-all duration-700 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"}`,
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                            src: "/images/tham-gia-hoi-thao.png",
+                            src: "/images/hoi-thao.png",
                             alt: "Online Webinar - Giải Mã Lộ Trình Kỹ Sư AI Toàn Năng",
                             className: "rounded-lg shadow-xl w-full hover:scale-105 transition-transform duration-500"
                         }, void 0, false, {
                             fileName: "[project]/components/consulting-section.tsx",
-                            lineNumber: 75,
+                            lineNumber: 76,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/consulting-section.tsx",
-                        lineNumber: 72,
+                        lineNumber: 73,
                         columnNumber: 11
                     }, this)
                 ]
@@ -1595,61 +1588,97 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 const agendaItems = [
     {
         date: "Phần 1",
-        title: "Kỷ nguyên AI và Vị thế mới của người Việt trẻ",
+        title: "Bức tranh nghề nghiệp qua các thời kỳ",
         isHighlighted: false,
         detailInfo: {
-            datetime: "20h00 | 13.12.2025",
+            datetime: "20h00 | 26.12.2025",
             format: "Zoom Online",
             content: [
-                "Giao lưu chuyên gia: Hiểu rõ thực tế ứng dụng AI tại doanh nghiệp và định hướng phát triển kỹ năng đón đầu xu hướng 5-10 năm tới.",
-                "Giải mã nghề nghiệp: Cập nhật lộ trình Career Path ngành AI, mức lương và phương pháp nhập môn cho học sinh chưa biết lập trình.",
-                "Lộ trình AI57 & Đại học Bách Khoa Hà Nội: Chương trình chuyên sâu giúp học sinh sở hữu Portfolio dự án thực tế - điểm cộng tuyệt đối cho hồ sơ năng lực.",
-                "Lợi thế du học & sự nghiệp: Chia sẻ từ sinh viên trường Top về cách dùng dự án AI cá nhân để tạo sự khác biệt khi apply học bổng và việc làm."
+                "Bức tranh nghề nghiệp qua các thời kỳ: Phân tích sự dịch chuyển cách tạo giá trị và cơ hội nghề nghiệp, từ đó giúp phụ huynh hiểu vai trò của AI trong kỷ nguyên số.",
+                "Khung năng lực SCORE 25 & Archetype: Giới thiệu bản đồ năng lực cốt lõi giúp phụ huynh định hướng đúng thế mạnh và con đường phát triển phù hợp cho học sinh.",
+                "Case study thực tế: Câu chuyện từ nhân vật nổi tiếng cùng ví dụ phụ huynh – học sinh áp dụng khung năng lực để tạo lợi thế học tập và nghề nghiệp.",
+                "Tương lai kỷ nguyên số (P4): Những câu hỏi phụ huynh buộc phải đối mặt khi AI thay đổi cách học, cách làm việc và tiêu chuẩn đánh giá năng lực.",
+                "Từ khung năng lực đến roadmap 12–24 tháng: Lộ trình phát triển theo đầu ra (project, portfolio, capstone) giúp học sinh xây dựng hồ sơ năng lực bền vững."
             ]
         }
     },
     {
         date: "Phần 2",
-        title: "Chân dung Kỹ sư AI 2030: Họ là ai, Lương bao nhiêu? Cơ hội nghề nghiệp ở đâu?",
+        title: "Khung năng lực SCORE 25 & 4 Archetype",
         isHighlighted: true,
         detailInfo: {
-            datetime: "20h00 | 13.12.2025",
+            datetime: "20h00 | 26.12.2025",
             format: "Zoom Online",
             content: [
-                "Giao lưu chuyên gia: Hiểu rõ thực tế ứng dụng AI tại doanh nghiệp và định hướng phát triển kỹ năng đón đầu xu hướng 5-10 năm tới.",
-                "Giải mã nghề nghiệp: Cập nhật lộ trình Career Path ngành AI, mức lương và phương pháp nhập môn cho học sinh chưa biết lập trình.",
-                "Lộ trình AI57 & Đại học Bách Khoa Hà Nội: Chương trình chuyên sâu giúp học sinh sở hữu Portfolio dự án thực tế - điểm cộng tuyệt đối cho hồ sơ năng lực.",
-                "Lợi thế du học & sự nghiệp: Chia sẻ từ sinh viên trường Top về cách dùng dự án AI cá nhân để tạo sự khác biệt khi apply học bổng và việc làm."
+                "Bức tranh nghề nghiệp qua các thời kỳ: Phân tích sự dịch chuyển cách tạo giá trị và cơ hội nghề nghiệp, từ đó giúp phụ huynh hiểu vai trò của AI trong kỷ nguyên số.",
+                "Khung năng lực SCORE 25 & Archetype: Giới thiệu bản đồ năng lực cốt lõi giúp phụ huynh định hướng đúng thế mạnh và con đường phát triển phù hợp cho học sinh.",
+                "Case study thực tế: Câu chuyện từ nhân vật nổi tiếng cùng ví dụ phụ huynh – học sinh áp dụng khung năng lực để tạo lợi thế học tập và nghề nghiệp.",
+                "Tương lai kỷ nguyên số (P4): Những câu hỏi phụ huynh buộc phải đối mặt khi AI thay đổi cách học, cách làm việc và tiêu chuẩn đánh giá năng lực.",
+                "Từ khung năng lực đến roadmap 12–24 tháng: Lộ trình phát triển theo đầu ra (project, portfolio, capstone) giúp học sinh xây dựng hồ sơ năng lực bền vững."
             ]
         }
     },
     {
         date: "Phần 3",
-        title: "Lộ trình 360 giờ, giúp học sinh có nền tảng tốt chuẩn quốc tế, dựa theo chương trình của NVIDIA",
+        title: "Từ người nổi tiếng đến phụ huynh & học sinh",
         isHighlighted: false,
         detailInfo: {
-            datetime: "20h00 | 13.12.2025",
+            datetime: "20h00 | 26.12.2025",
             format: "Zoom Online",
             content: [
-                "Giao lưu chuyên gia: Hiểu rõ thực tế ứng dụng AI tại doanh nghiệp và định hướng phát triển kỹ năng đón đầu xu hướng 5-10 năm tới.",
-                "Giải mã nghề nghiệp: Cập nhật lộ trình Career Path ngành AI, mức lương và phương pháp nhập môn cho học sinh chưa biết lập trình.",
-                "Lộ trình AI57 & Đại học Bách Khoa Hà Nội: Chương trình chuyên sâu giúp học sinh sở hữu Portfolio dự án thực tế - điểm cộng tuyệt đối cho hồ sơ năng lực.",
-                "Lợi thế du học & sự nghiệp: Chia sẻ từ sinh viên trường Top về cách dùng dự án AI cá nhân để tạo sự khác biệt khi apply học bổng và việc làm."
+                "Bức tranh nghề nghiệp qua các thời kỳ: Phân tích sự dịch chuyển cách tạo giá trị và cơ hội nghề nghiệp, từ đó giúp phụ huynh hiểu vai trò của AI trong kỷ nguyên số.",
+                "Khung năng lực SCORE 25 & Archetype: Giới thiệu bản đồ năng lực cốt lõi giúp phụ huynh định hướng đúng thế mạnh và con đường phát triển phù hợp cho học sinh.",
+                "Case study thực tế: Câu chuyện từ nhân vật nổi tiếng cùng ví dụ phụ huynh – học sinh áp dụng khung năng lực để tạo lợi thế học tập và nghề nghiệp.",
+                "Tương lai kỷ nguyên số (P4): Những câu hỏi phụ huynh buộc phải đối mặt khi AI thay đổi cách học, cách làm việc và tiêu chuẩn đánh giá năng lực.",
+                "Từ khung năng lực đến roadmap 12–24 tháng: Lộ trình phát triển theo đầu ra (project, portfolio, capstone) giúp học sinh xây dựng hồ sơ năng lực bền vững."
             ]
         }
     },
     {
         date: "Phần 4",
+        title: "Tương lai kỷ nguyên số & những câu hỏi phụ huynh buộc phải đối mặt",
+        isHighlighted: false,
+        detailInfo: {
+            datetime: "20h00 | 26.12.2025",
+            format: "Zoom Online",
+            content: [
+                "Bức tranh nghề nghiệp qua các thời kỳ: Phân tích sự dịch chuyển cách tạo giá trị và cơ hội nghề nghiệp, từ đó giúp phụ huynh hiểu vai trò của AI trong kỷ nguyên số.",
+                "Khung năng lực SCORE 25 & Archetype: Giới thiệu bản đồ năng lực cốt lõi giúp phụ huynh định hướng đúng thế mạnh và con đường phát triển phù hợp cho học sinh.",
+                "Case study thực tế: Câu chuyện từ nhân vật nổi tiếng cùng ví dụ phụ huynh – học sinh áp dụng khung năng lực để tạo lợi thế học tập và nghề nghiệp.",
+                "Tương lai kỷ nguyên số (P4): Những câu hỏi phụ huynh buộc phải đối mặt khi AI thay đổi cách học, cách làm việc và tiêu chuẩn đánh giá năng lực.",
+                "Từ khung năng lực đến roadmap 12–24 tháng: Lộ trình phát triển theo đầu ra (project, portfolio, capstone) giúp học sinh xây dựng hồ sơ năng lực bền vững."
+            ]
+        }
+    },
+    {
+        date: "Phần 5",
+        title: "Từ khung năng lực đến roadmap 12–24 tháng theo đầu ra",
+        isHighlighted: false,
+        detailInfo: {
+            datetime: "20h00 | 26.12.2025",
+            format: "Zoom Online",
+            content: [
+                "Bức tranh nghề nghiệp qua các thời kỳ: Phân tích sự dịch chuyển cách tạo giá trị và cơ hội nghề nghiệp, từ đó giúp phụ huynh hiểu vai trò của AI trong kỷ nguyên số.",
+                "Khung năng lực SCORE 25 & Archetype: Giới thiệu bản đồ năng lực cốt lõi giúp phụ huynh định hướng đúng thế mạnh và con đường phát triển phù hợp cho học sinh.",
+                "Case study thực tế: Câu chuyện từ nhân vật nổi tiếng cùng ví dụ phụ huynh – học sinh áp dụng khung năng lực để tạo lợi thế học tập và nghề nghiệp.",
+                "Tương lai kỷ nguyên số (P4): Những câu hỏi phụ huynh buộc phải đối mặt khi AI thay đổi cách học, cách làm việc và tiêu chuẩn đánh giá năng lực.",
+                "Từ khung năng lực đến roadmap 12–24 tháng: Lộ trình phát triển theo đầu ra (project, portfolio, capstone) giúp học sinh xây dựng hồ sơ năng lực bền vững."
+            ]
+        }
+    },
+    {
+        date: "Phần 6",
         title: "Người đi trước 2-3 năm, cũng là học sinh, cảm thấy rất đáng để bắt đầu từ cấp 3",
         isHighlighted: false,
         detailInfo: {
-            datetime: "20h00 | 13.12.2025",
+            datetime: "20h00 | 26.12.2025",
             format: "Zoom Online",
             content: [
-                "Giao lưu chuyên gia: Hiểu rõ thực tế ứng dụng AI tại doanh nghiệp và định hướng phát triển kỹ năng đón đầu xu hướng 5-10 năm tới.",
-                "Giải mã nghề nghiệp: Cập nhật lộ trình Career Path ngành AI, mức lương và phương pháp nhập môn cho học sinh chưa biết lập trình.",
-                "Lộ trình AI57 & Đại học Bách Khoa Hà Nội: Chương trình chuyên sâu giúp học sinh sở hữu Portfolio dự án thực tế - điểm cộng tuyệt đối cho hồ sơ năng lực.",
-                "Lợi thế du học & sự nghiệp: Chia sẻ từ sinh viên trường Top về cách dùng dự án AI cá nhân để tạo sự khác biệt khi apply học bổng và việc làm."
+                "Bức tranh nghề nghiệp qua các thời kỳ: Phân tích sự dịch chuyển cách tạo giá trị và cơ hội nghề nghiệp, từ đó giúp phụ huynh hiểu vai trò của AI trong kỷ nguyên số.",
+                "Khung năng lực SCORE 25 & Archetype: Giới thiệu bản đồ năng lực cốt lõi giúp phụ huynh định hướng đúng thế mạnh và con đường phát triển phù hợp cho học sinh.",
+                "Case study thực tế: Câu chuyện từ nhân vật nổi tiếng cùng ví dụ phụ huynh – học sinh áp dụng khung năng lực để tạo lợi thế học tập và nghề nghiệp.",
+                "Tương lai kỷ nguyên số (P4): Những câu hỏi phụ huynh buộc phải đối mặt khi AI thay đổi cách học, cách làm việc và tiêu chuẩn đánh giá năng lực.",
+                "Từ khung năng lực đến roadmap 12–24 tháng: Lộ trình phát triển theo đầu ra (project, portfolio, capstone) giúp học sinh xây dựng hồ sơ năng lực bền vững."
             ]
         }
     }
@@ -1683,7 +1712,7 @@ function AgendaSection() {
                     children: "AGENDA"
                 }, void 0, false, {
                     fileName: "[project]/components/agenda-section.tsx",
-                    lineNumber: 100,
+                    lineNumber: 160,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1691,7 +1720,7 @@ function AgendaSection() {
                     children: "Chương trình hội thảo được thiết kế chi tiết"
                 }, void 0, false, {
                     fileName: "[project]/components/agenda-section.tsx",
-                    lineNumber: 105,
+                    lineNumber: 165,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1704,7 +1733,7 @@ function AgendaSection() {
                                     className: "absolute left-[88px] top-8 bottom-8 w-0.5 border-l-2 border-dashed border-gray-300"
                                 }, void 0, false, {
                                     fileName: "[project]/components/agenda-section.tsx",
-                                    lineNumber: 112,
+                                    lineNumber: 172,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1722,7 +1751,7 @@ function AgendaSection() {
                                                             className: "w-4 h-4 text-[#2563eb]"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/agenda-section.tsx",
-                                                            lineNumber: 125,
+                                                            lineNumber: 185,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1730,13 +1759,13 @@ function AgendaSection() {
                                                             children: item.date
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/agenda-section.tsx",
-                                                            lineNumber: 126,
+                                                            lineNumber: 186,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/agenda-section.tsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 184,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -1747,29 +1776,29 @@ function AgendaSection() {
                                                         children: item.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/agenda-section.tsx",
-                                                        lineNumber: 138,
+                                                        lineNumber: 198,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/agenda-section.tsx",
-                                                    lineNumber: 130,
+                                                    lineNumber: 190,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/agenda-section.tsx",
-                                            lineNumber: 116,
+                                            lineNumber: 176,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/agenda-section.tsx",
-                                    lineNumber: 114,
+                                    lineNumber: 174,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/agenda-section.tsx",
-                            lineNumber: 110,
+                            lineNumber: 170,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -1784,12 +1813,12 @@ function AgendaSection() {
                                                 className: "w-5 h-5 text-blue-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/agenda-section.tsx",
-                                                lineNumber: 158,
+                                                lineNumber: 218,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/agenda-section.tsx",
-                                            lineNumber: 157,
+                                            lineNumber: 217,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1799,7 +1828,7 @@ function AgendaSection() {
                                                     children: "Ngày & giờ:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/agenda-section.tsx",
-                                                    lineNumber: 161,
+                                                    lineNumber: 221,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1807,19 +1836,19 @@ function AgendaSection() {
                                                     children: currentDetail.datetime
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/agenda-section.tsx",
-                                                    lineNumber: 162,
+                                                    lineNumber: 222,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/agenda-section.tsx",
-                                            lineNumber: 160,
+                                            lineNumber: 220,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/agenda-section.tsx",
-                                    lineNumber: 156,
+                                    lineNumber: 216,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1831,12 +1860,12 @@ function AgendaSection() {
                                                 className: "w-5 h-5 text-[#2563eb]"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/agenda-section.tsx",
-                                                lineNumber: 169,
+                                                lineNumber: 229,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/agenda-section.tsx",
-                                            lineNumber: 168,
+                                            lineNumber: 228,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1846,7 +1875,7 @@ function AgendaSection() {
                                                     children: "Hình thức:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/agenda-section.tsx",
-                                                    lineNumber: 172,
+                                                    lineNumber: 232,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1854,19 +1883,19 @@ function AgendaSection() {
                                                     children: currentDetail.format
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/agenda-section.tsx",
-                                                    lineNumber: 173,
+                                                    lineNumber: 233,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/agenda-section.tsx",
-                                            lineNumber: 171,
+                                            lineNumber: 231,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/agenda-section.tsx",
-                                    lineNumber: 167,
+                                    lineNumber: 227,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1882,17 +1911,17 @@ function AgendaSection() {
                                                             className: "w-2 h-2 bg-orange-600 rounded-full"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/agenda-section.tsx",
-                                                            lineNumber: 182,
+                                                            lineNumber: 242,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/agenda-section.tsx",
-                                                        lineNumber: 181,
+                                                        lineNumber: 241,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/agenda-section.tsx",
-                                                    lineNumber: 180,
+                                                    lineNumber: 240,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1900,13 +1929,13 @@ function AgendaSection() {
                                                     children: "Nội dung chính"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/agenda-section.tsx",
-                                                    lineNumber: 185,
+                                                    lineNumber: 245,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/agenda-section.tsx",
-                                            lineNumber: 179,
+                                            lineNumber: 239,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
@@ -1922,7 +1951,7 @@ function AgendaSection() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/agenda-section.tsx",
-                                                            lineNumber: 190,
+                                                            lineNumber: 250,
                                                             columnNumber: 21
                                                         }, this),
                                                         " ",
@@ -1930,18 +1959,18 @@ function AgendaSection() {
                                                     ]
                                                 }, index, true, {
                                                     fileName: "[project]/components/agenda-section.tsx",
-                                                    lineNumber: 189,
+                                                    lineNumber: 249,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/agenda-section.tsx",
-                                            lineNumber: 187,
+                                            lineNumber: 247,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/agenda-section.tsx",
-                                    lineNumber: 178,
+                                    lineNumber: 238,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1956,12 +1985,12 @@ function AgendaSection() {
                                                         className: "w-5 h-5 text-purple-600"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/agenda-section.tsx",
-                                                        lineNumber: 200,
+                                                        lineNumber: 260,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/agenda-section.tsx",
-                                                    lineNumber: 199,
+                                                    lineNumber: 259,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1969,13 +1998,13 @@ function AgendaSection() {
                                                     children: "Đối tượng tham gia"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/agenda-section.tsx",
-                                                    lineNumber: 202,
+                                                    lineNumber: 262,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/agenda-section.tsx",
-                                            lineNumber: 198,
+                                            lineNumber: 258,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1986,7 +2015,7 @@ function AgendaSection() {
                                                     children: "Phụ huynh quan tâm giáo dục chất lượng"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/agenda-section.tsx",
-                                                    lineNumber: 205,
+                                                    lineNumber: 265,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1994,7 +2023,7 @@ function AgendaSection() {
                                                     children: "Phụ huynh có kế hoạch du học"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/agenda-section.tsx",
-                                                    lineNumber: 206,
+                                                    lineNumber: 266,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2002,42 +2031,42 @@ function AgendaSection() {
                                                     children: "Con yêu thích công nghệ/AI"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/agenda-section.tsx",
-                                                    lineNumber: 207,
+                                                    lineNumber: 267,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/agenda-section.tsx",
-                                            lineNumber: 204,
+                                            lineNumber: 264,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/agenda-section.tsx",
-                                    lineNumber: 197,
+                                    lineNumber: 257,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, selectedIndex, true, {
                             fileName: "[project]/components/agenda-section.tsx",
-                            lineNumber: 149,
+                            lineNumber: 209,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/agenda-section.tsx",
-                    lineNumber: 109,
+                    lineNumber: 169,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/agenda-section.tsx",
-            lineNumber: 99,
+            lineNumber: 159,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/agenda-section.tsx",
-        lineNumber: 95,
+        lineNumber: 155,
         columnNumber: 5
     }, this);
 }

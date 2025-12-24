@@ -7,61 +7,121 @@ import { Calendar, Video, User } from "lucide-react"
 const agendaItems = [
   {
     date: "Phần 1",
-    title: "Kỷ nguyên AI và Vị thế mới của người Việt trẻ",
+    title: "Bức tranh nghề nghiệp qua các thời kỳ",
     isHighlighted: false,
     detailInfo: {
-      datetime: "20h00 | 13.12.2025",
+      datetime: "20h00 | 26.12.2025",
       format: "Zoom Online",
       content: [
-        "Giao lưu chuyên gia: Hiểu rõ thực tế ứng dụng AI tại doanh nghiệp và định hướng phát triển kỹ năng đón đầu xu hướng 5-10 năm tới.",
-        "Giải mã nghề nghiệp: Cập nhật lộ trình Career Path ngành AI, mức lương và phương pháp nhập môn cho học sinh chưa biết lập trình.",
-        "Lộ trình AI57 & Đại học Bách Khoa Hà Nội: Chương trình chuyên sâu giúp học sinh sở hữu Portfolio dự án thực tế - điểm cộng tuyệt đối cho hồ sơ năng lực.",
-        "Lợi thế du học & sự nghiệp: Chia sẻ từ sinh viên trường Top về cách dùng dự án AI cá nhân để tạo sự khác biệt khi apply học bổng và việc làm.",
-      ],
+        "Bức tranh nghề nghiệp qua các thời kỳ: Phân tích sự dịch chuyển cách tạo giá trị và cơ hội nghề nghiệp, từ đó giúp phụ huynh hiểu vai trò của AI trong kỷ nguyên số.",
+
+        "Khung năng lực SCORE 25 & Archetype: Giới thiệu bản đồ năng lực cốt lõi giúp phụ huynh định hướng đúng thế mạnh và con đường phát triển phù hợp cho học sinh.",
+        
+        "Case study thực tế: Câu chuyện từ nhân vật nổi tiếng cùng ví dụ phụ huynh – học sinh áp dụng khung năng lực để tạo lợi thế học tập và nghề nghiệp.",
+        
+        "Tương lai kỷ nguyên số (P4): Những câu hỏi phụ huynh buộc phải đối mặt khi AI thay đổi cách học, cách làm việc và tiêu chuẩn đánh giá năng lực.",
+        
+        "Từ khung năng lực đến roadmap 12–24 tháng: Lộ trình phát triển theo đầu ra (project, portfolio, capstone) giúp học sinh xây dựng hồ sơ năng lực bền vững.",
+           ],
     },
   },
   {
     date: "Phần 2",
-    title: "Chân dung Kỹ sư AI 2030: Họ là ai, Lương bao nhiêu? Cơ hội nghề nghiệp ở đâu?",
+    title: "Khung năng lực SCORE 25 & 4 Archetype",
     isHighlighted: true,
     detailInfo: {
-      datetime: "20h00 | 13.12.2025",
+      datetime: "20h00 | 26.12.2025",
       format: "Zoom Online",
       content: [
-        "Giao lưu chuyên gia: Hiểu rõ thực tế ứng dụng AI tại doanh nghiệp và định hướng phát triển kỹ năng đón đầu xu hướng 5-10 năm tới.",
-        "Giải mã nghề nghiệp: Cập nhật lộ trình Career Path ngành AI, mức lương và phương pháp nhập môn cho học sinh chưa biết lập trình.",
-        "Lộ trình AI57 & Đại học Bách Khoa Hà Nội: Chương trình chuyên sâu giúp học sinh sở hữu Portfolio dự án thực tế - điểm cộng tuyệt đối cho hồ sơ năng lực.",
-        "Lợi thế du học & sự nghiệp: Chia sẻ từ sinh viên trường Top về cách dùng dự án AI cá nhân để tạo sự khác biệt khi apply học bổng và việc làm.",
+        "Bức tranh nghề nghiệp qua các thời kỳ: Phân tích sự dịch chuyển cách tạo giá trị và cơ hội nghề nghiệp, từ đó giúp phụ huynh hiểu vai trò của AI trong kỷ nguyên số.",
+
+        "Khung năng lực SCORE 25 & Archetype: Giới thiệu bản đồ năng lực cốt lõi giúp phụ huynh định hướng đúng thế mạnh và con đường phát triển phù hợp cho học sinh.",
+        
+        "Case study thực tế: Câu chuyện từ nhân vật nổi tiếng cùng ví dụ phụ huynh – học sinh áp dụng khung năng lực để tạo lợi thế học tập và nghề nghiệp.",
+        
+        "Tương lai kỷ nguyên số (P4): Những câu hỏi phụ huynh buộc phải đối mặt khi AI thay đổi cách học, cách làm việc và tiêu chuẩn đánh giá năng lực.",
+        
+        "Từ khung năng lực đến roadmap 12–24 tháng: Lộ trình phát triển theo đầu ra (project, portfolio, capstone) giúp học sinh xây dựng hồ sơ năng lực bền vững.",
       ],
     },
   },
   {
     date: "Phần 3",
-    title: "Lộ trình 360 giờ, giúp học sinh có nền tảng tốt chuẩn quốc tế, dựa theo chương trình của NVIDIA",
+    title: "Từ người nổi tiếng đến phụ huynh & học sinh",
     isHighlighted: false,
     detailInfo: {
-      datetime: "20h00 | 13.12.2025",
+      datetime: "20h00 | 26.12.2025",
       format: "Zoom Online",
       content: [
-        "Giao lưu chuyên gia: Hiểu rõ thực tế ứng dụng AI tại doanh nghiệp và định hướng phát triển kỹ năng đón đầu xu hướng 5-10 năm tới.",
-        "Giải mã nghề nghiệp: Cập nhật lộ trình Career Path ngành AI, mức lương và phương pháp nhập môn cho học sinh chưa biết lập trình.",
-        "Lộ trình AI57 & Đại học Bách Khoa Hà Nội: Chương trình chuyên sâu giúp học sinh sở hữu Portfolio dự án thực tế - điểm cộng tuyệt đối cho hồ sơ năng lực.",
-        "Lợi thế du học & sự nghiệp: Chia sẻ từ sinh viên trường Top về cách dùng dự án AI cá nhân để tạo sự khác biệt khi apply học bổng và việc làm.",
+        "Bức tranh nghề nghiệp qua các thời kỳ: Phân tích sự dịch chuyển cách tạo giá trị và cơ hội nghề nghiệp, từ đó giúp phụ huynh hiểu vai trò của AI trong kỷ nguyên số.",
+
+        "Khung năng lực SCORE 25 & Archetype: Giới thiệu bản đồ năng lực cốt lõi giúp phụ huynh định hướng đúng thế mạnh và con đường phát triển phù hợp cho học sinh.",
+        
+        "Case study thực tế: Câu chuyện từ nhân vật nổi tiếng cùng ví dụ phụ huynh – học sinh áp dụng khung năng lực để tạo lợi thế học tập và nghề nghiệp.",
+        
+        "Tương lai kỷ nguyên số (P4): Những câu hỏi phụ huynh buộc phải đối mặt khi AI thay đổi cách học, cách làm việc và tiêu chuẩn đánh giá năng lực.",
+        
+        "Từ khung năng lực đến roadmap 12–24 tháng: Lộ trình phát triển theo đầu ra (project, portfolio, capstone) giúp học sinh xây dựng hồ sơ năng lực bền vững.",
       ],
     },
   },
   {
     date: "Phần 4",
+    title: "Tương lai kỷ nguyên số & những câu hỏi phụ huynh buộc phải đối mặt",
+    isHighlighted: false,
+    detailInfo: {
+      datetime: "20h00 | 26.12.2025",
+      format: "Zoom Online",
+      content: [
+        "Bức tranh nghề nghiệp qua các thời kỳ: Phân tích sự dịch chuyển cách tạo giá trị và cơ hội nghề nghiệp, từ đó giúp phụ huynh hiểu vai trò của AI trong kỷ nguyên số.",
+
+        "Khung năng lực SCORE 25 & Archetype: Giới thiệu bản đồ năng lực cốt lõi giúp phụ huynh định hướng đúng thế mạnh và con đường phát triển phù hợp cho học sinh.",
+        
+        "Case study thực tế: Câu chuyện từ nhân vật nổi tiếng cùng ví dụ phụ huynh – học sinh áp dụng khung năng lực để tạo lợi thế học tập và nghề nghiệp.",
+        
+        "Tương lai kỷ nguyên số (P4): Những câu hỏi phụ huynh buộc phải đối mặt khi AI thay đổi cách học, cách làm việc và tiêu chuẩn đánh giá năng lực.",
+        
+        "Từ khung năng lực đến roadmap 12–24 tháng: Lộ trình phát triển theo đầu ra (project, portfolio, capstone) giúp học sinh xây dựng hồ sơ năng lực bền vững.",
+      ],
+    },
+  },
+  {
+    date: "Phần 5",
+    title: "Từ khung năng lực đến roadmap 12–24 tháng theo đầu ra",
+    isHighlighted: false,
+    detailInfo: {
+      datetime: "20h00 | 26.12.2025",
+      format: "Zoom Online",
+      content: [
+        "Bức tranh nghề nghiệp qua các thời kỳ: Phân tích sự dịch chuyển cách tạo giá trị và cơ hội nghề nghiệp, từ đó giúp phụ huynh hiểu vai trò của AI trong kỷ nguyên số.",
+
+        "Khung năng lực SCORE 25 & Archetype: Giới thiệu bản đồ năng lực cốt lõi giúp phụ huynh định hướng đúng thế mạnh và con đường phát triển phù hợp cho học sinh.",
+        
+        "Case study thực tế: Câu chuyện từ nhân vật nổi tiếng cùng ví dụ phụ huynh – học sinh áp dụng khung năng lực để tạo lợi thế học tập và nghề nghiệp.",
+        
+        "Tương lai kỷ nguyên số (P4): Những câu hỏi phụ huynh buộc phải đối mặt khi AI thay đổi cách học, cách làm việc và tiêu chuẩn đánh giá năng lực.",
+        
+        "Từ khung năng lực đến roadmap 12–24 tháng: Lộ trình phát triển theo đầu ra (project, portfolio, capstone) giúp học sinh xây dựng hồ sơ năng lực bền vững.",
+      ],
+    },
+  },
+  {
+    date: "Phần 6",
     title: "Người đi trước 2-3 năm, cũng là học sinh, cảm thấy rất đáng để bắt đầu từ cấp 3",
     isHighlighted: false,
     detailInfo: {
-      datetime: "20h00 | 13.12.2025",
+      datetime: "20h00 | 26.12.2025",
       format: "Zoom Online",
       content: [
-        "Giao lưu chuyên gia: Hiểu rõ thực tế ứng dụng AI tại doanh nghiệp và định hướng phát triển kỹ năng đón đầu xu hướng 5-10 năm tới.",
-        "Giải mã nghề nghiệp: Cập nhật lộ trình Career Path ngành AI, mức lương và phương pháp nhập môn cho học sinh chưa biết lập trình.",
-        "Lộ trình AI57 & Đại học Bách Khoa Hà Nội: Chương trình chuyên sâu giúp học sinh sở hữu Portfolio dự án thực tế - điểm cộng tuyệt đối cho hồ sơ năng lực.",
-        "Lợi thế du học & sự nghiệp: Chia sẻ từ sinh viên trường Top về cách dùng dự án AI cá nhân để tạo sự khác biệt khi apply học bổng và việc làm.",
+        "Bức tranh nghề nghiệp qua các thời kỳ: Phân tích sự dịch chuyển cách tạo giá trị và cơ hội nghề nghiệp, từ đó giúp phụ huynh hiểu vai trò của AI trong kỷ nguyên số.",
+
+        "Khung năng lực SCORE 25 & Archetype: Giới thiệu bản đồ năng lực cốt lõi giúp phụ huynh định hướng đúng thế mạnh và con đường phát triển phù hợp cho học sinh.",
+        
+        "Case study thực tế: Câu chuyện từ nhân vật nổi tiếng cùng ví dụ phụ huynh – học sinh áp dụng khung năng lực để tạo lợi thế học tập và nghề nghiệp.",
+        
+        "Tương lai kỷ nguyên số (P4): Những câu hỏi phụ huynh buộc phải đối mặt khi AI thay đổi cách học, cách làm việc và tiêu chuẩn đánh giá năng lực.",
+        
+        "Từ khung năng lực đến roadmap 12–24 tháng: Lộ trình phát triển theo đầu ra (project, portfolio, capstone) giúp học sinh xây dựng hồ sơ năng lực bền vững.",
       ],
     },
   },

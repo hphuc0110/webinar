@@ -6,11 +6,19 @@ import { Award, Star, User } from "lucide-react"
 
 const testimonials = [
   {
+    name: "Lê Bá Huy",
+    title: "Founder Group Tôi thử sức làm BA ",
+    school: "",
+    description: ' Người truyền cảm hứng, định hướng nghề nghiệp và kết nối việc làm cho sinh viên \n Chuyên gia tư vấn giải pháp chuyển đổi số khối Chính phủ, Chuyên gia tư vấn Chiến lược dữ liệu.',
+    achievements: [],
+    image: "/images/le-ba-huy.png",
+  },
+  {
     name: "Nguyễn Quốc Cường",
     title: "Chuyên gia LLM Agents & tự động hóa doanh nghiệp",
     description: "Cựu Engineering Manager Samsung SDS \nTechnical Leader FPT Software \n Tiên phong đưa Deep Learning vào sản xuất từ 2017 \nFounder đơn vị nghiên cứu LLM Agents & tự động hóa doanh nghiệp",
     image: "/images/cuong.png",
-    achievements: ["Engineering Manager Samsung SDS", "Technical Leader FPT Software"],
+    achievements: [],
   },
   {
     name: "Khách mời đặc biệt",
@@ -19,14 +27,6 @@ const testimonials = [
     description: 'Hơn 20 năm kinh nghiệm triển khai hệ thống CNTT quy mô lớn cho ngân hàng, thuế, hải quan và doanh nghiệp. \n Chuyên gia về cơ sở dữ liệu, tối ưu hiệu năng và kiến trúc dữ liệu (Data Warehouse, Data Lake, real-time replication).',
     achievements: [],
     image: "/images/bimat.jpg",
-  },
-  {
-    name: "Nguyễn Việt Hưng",
-    title: "Sinh viên xuất sắc",
-    school: "",
-    description: 'Ngành Khoa học dữ liệu - Trí tuệ nhân tạo HUST, Giải Nhì Thành phố tiếng Anh, Thủ khoa 5 khối THPTQG',
-    achievements: ["IELTS 8.0", "SAT 1560", "Thủ khoa 5 khối"],
-    image: "/images/viet-hung.jpg",
   },
 ]
 

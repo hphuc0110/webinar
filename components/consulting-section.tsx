@@ -5,13 +5,13 @@ import { Check } from "lucide-react"
 import { useEffect, useRef, useState } from "react"
 
 const benefits = [
-  "Hiểu rõ AI đang thay đổi nghề nghiệp như thế nào và ngành Kỹ sư AI sẽ phát triển ra sao trong 5–10 năm tới",
+  "Mỗi giai đoạn phát triển của xã hội kéo theo sự thay đổi trong cách tạo ra giá trị, từ đó làm dịch chuyển cơ hội nghề nghiệp; AI đang trở thành một nền tảng cốt lõi tiếp theo, có vai trò hỗ trợ và khuếch đại năng lực của thế hệ trẻ.",
 
-  "Nắm được lộ trình học tập để trở thành Kỹ sư AI từ THPT đến đại học & sau đại học",
+  "Cung cấp khung năng lực nền tảng: phụ huynh được giới thiệu khung năng lực SCORE 25 kết hợp với 4 nhóm archetype, ở mức độ nhận thức và định hướng, không yêu cầu đánh giá hay chấm điểm trực tiếp tại thời điểm chia sẻ.",
   
-  "Biết cần chuẩn bị kỹ năng, dự án & portfolio gì để tăng lợi thế khi xét tuyển, xin học bổng & cơ hội việc làm quốc tế",
+  "Hé lộ roadmap phát triển 12–24 tháng theo đầu ra: từ khung năng lực đến project, portfolio, capstone và tín hiệu năng lực → dẫn dắt sang buổi chia sẻ chuyên sâu.",
   
-  "Có kế hoạch học tập rõ ràng để phụ huynh đồng hành cùng con mà không áp lực, không mơ hồ AI là gì, bắt đầu từ đâu",
+  "Nhu cầu ứng dụng AI thực tiễn: định hướng Level A của AI57, với lộ trình tiếp tục cho nhóm quan tâm sâu hơn ở Level B, C.",
 ]
 
 export function ConsultingSection() {
@@ -50,7 +50,8 @@ export function ConsultingSection() {
             className={`space-y-4 md:space-y-6 transition-all duration-700 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"}`}
           >
             <h2 className="text-2xl md:text-3xl font-bold">
-            PHỤ HUYNH & HỌC SINH SẼ GỠ BỎ 4 NỖI LO LỚN NHẤT VỀ NGÀNH TRÍ TUỆ NHÂN TẠO           </h2>
+              KỸ NĂNG THEN CHỐT CHO CON BẠN TRONG 5-10 NĂM TỚI
+            </h2>
 
             <div className="space-y-3 md:space-y-4">
               {benefits.map((benefit, index) => (
@@ -73,7 +74,7 @@ export function ConsultingSection() {
             className={`transition-all duration-700 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"}`}
           >
             <img
-              src="/images/tham-gia-hoi-thao.png"
+              src="/images/hoi-thao.png"
               alt="Online Webinar - Giải Mã Lộ Trình Kỹ Sư AI Toàn Năng"
               className="rounded-lg shadow-xl w-full hover:scale-105 transition-transform duration-500"
             />

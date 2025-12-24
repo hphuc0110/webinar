@@ -242,7 +242,7 @@ export function HeroSection() {
                           value="Lộ trình 12–24 tháng: portfolio – capstone – tín hiệu năng lực"
                           className="whitespace-normal break-words py-2"
                         >
-                          Lộ trình 12–24 tháng: portfolio – capstone – tín hiệu năng lực
+                          Lộ trình 12–24 tháng: Portfolio – Capstone – Tín hiệu năng lực
                         </SelectItem>
                       </SelectContent>
                     </Select>
